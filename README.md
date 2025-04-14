@@ -3,12 +3,19 @@ This Python script performs Gene Set Enrichment Analysis (GSEA) across different
 
 # Directory Structure
 .
+
 ├── tcga_gsea3.py             # Main script
+
 ├── grade_generalised/        # Folder containing MAF files organized by stage and case_id
+
 │   ├── StageI/
+
 │   ├── StageII/
+
 │   ├── StageIII/
+
 │   └── StageIV/
+
 └── gsea_result_all_genes/    # Output results (plots, Excel, heatmap)
 
 # Working
